@@ -87,3 +87,38 @@ export class AppComponent implements OnInit {
 
 `<div *ngFor="let cliente of clientes">{{cliente.nome}}</div>`
 
+
+Starting the backend service
+
+`mvn spring-boot:run`
+
+Adding new changes to github
+
+`git add . && git commit -m "Component and Backend Integration via Service" && git push origin develop`
+
+
+### app.module.ts
+
+`import { MatCardModule } from '@angular/material/card';`
+
+`MatCardModule`
+
+
+### package.json
+
+`"@angular/cdk": "^12.0.3",`
+`"@angular/material": "^12.0.3",`
+
+`npm install`
+
+### app.component.html
+
+`<mat-card *ngFor="let cliente of clientes">{{ cliente.nome }}</mat-card>`
+
+### style.css
+
+`@import "~@angular/material/prebuilt-themes/indigo-pink.css";`
+
+Adding support to material to github
+
+`git add . && git commit -m "Adding MatCard" && git push origin develop`
