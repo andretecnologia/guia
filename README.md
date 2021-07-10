@@ -1,5 +1,7 @@
 # Guia 
 
+`npm i -g @angular/cli@latest`
+
 `ng new ui --routing=true --style=css --skip-tests --verbose`
 
 `ng serve`
